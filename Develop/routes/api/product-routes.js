@@ -39,7 +39,6 @@ router.post('/', (req, res) => {
       res.status(400).json(err);
     });
 });
-
 // update product
 router.put('/:id', (req, res) => {
   // update product data
