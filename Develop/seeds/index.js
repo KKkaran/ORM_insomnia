@@ -13,8 +13,6 @@ const seedAll = async () => {
   await seedProduct();
 
   await seedProductTag();
-  
-  //await seedProductTags();
 
   process.exit(0);
 };

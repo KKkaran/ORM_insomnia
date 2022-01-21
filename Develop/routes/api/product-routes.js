@@ -25,7 +25,6 @@ router.get('/', (req, res) => {
       res.status(500).json(err);
     });
 });
-
 // get one product
 router.get('/:id', (req, res) => {
   // find a single product by its `id`
@@ -51,7 +50,6 @@ router.get('/:id', (req, res) => {
       res.status(500).json(err);
     });
 });
-
 // create new product
 router.post('/', (req, res) => {
 
@@ -90,6 +88,7 @@ router.put('/:id', (req, res) => {
     })
     .then((productTags) => {
       // get list of current tag_ids
+      //productsTags are old tags
       const productTagIds = productTags.map(({ tag_id }) => tag_id);
       // create filtered list of new tag_ids
       const newProductTags = req.body.tagIds
