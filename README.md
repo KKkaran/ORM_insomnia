@@ -2,6 +2,7 @@
     <img src="https://img.shields.io/badge/License-Apache2.0-red.svg"/>
     <h2 id="description">Description</h2>
     <p><img src="icons/search.png" height="18" width="20"/>In this project, we will test basically the CRUD operations on various tables like Categories, Products and Tags that we need for our ecommerce website. Some data will be seeded in the beginning of the project. It is done so we have something to work with. However, we can also create new entries and update the current ones and delete in the DB using the Insomnia application. Please watch the video for a proper demonstration before you clone the project.  </p>
+    Link for VIDEO: https://drive.google.com/file/d/1cCyintS7sTcreXqt70te5NMw4xFi6PgR/view?usp=sharing
     <hr>
     <h2>Table of Contents</h2>
     <ul>
